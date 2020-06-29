@@ -1,0 +1,241 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color:#5D6D7E;
+}
+h3{
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    margin: 30px 0;
+    text-transform: capitalize;
+}
+h4{
+    text-align: center;
+    color: #fff;
+    margin: 30px 0;
+    font-weight: 700;
+    text-transform: capitalize;
+
+}
+.list{
+    width: 250px;
+    min-height: 250px;
+    border: 1px solid #ddd;
+    margin: 30px auto;
+    background-color: #ECF0F1;
+}
+
+.list li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.list li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 26px;
+    margin: 10px 0;
+  
+    color: #7D3C98;
+    font-weight: 700;
+}
+.list li a:visited{
+    color: blue;
+}
+.list li a:hover{
+    color: #BB8FCE;
+  
+}
+.list li a:active{
+    color: #EBDEF0;
+}
+
+
+/*
+
+        Overflow Css
+*/
+.comon,
+.media,
+.meta,
+.visi,
+.hid,
+.scroll,
+.auto{
+    padding: 10px;
+
+}
+.comon h4{
+    color: #fff;
+    font-weight: 700;
+    font-size: 26px;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.comon ul{
+    width: 250px;
+    min-height: 250px;
+    border: 1px solid #ddd;
+    margin: 30px auto;
+    background-color: #ECF0F1;
+    list-style: none;
+}
+.comon ul li{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px 0;
+    text-align: center;
+    text-transform: capitalize;
+}
+.visi{
+    background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px dotted black;
+  overflow: visible;
+  margin: 50px auto;
+}
+.hid{
+    background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px dotted black;
+  overflow: hidden;
+  margin: 50px auto;
+}
+.scroll{
+    background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px dotted black;
+  overflow: scroll;
+  margin: 50px auto;
+}
+.auto{
+    background-color: #eee;
+  width: 200px;
+  height: 50px;
+  border: 1px dotted black;
+  overflow: auto;
+  margin: 50px auto;
+}
+
+/*
+
+        Responsive Css
+*/
+
+
+.meta,
+.media{
+    width: 500px;
+    height: auto;
+    background: #fff;
+    margin: 30px auto;
+    font-size: 20px;
+}
+
+/*
+
+        Animation Css
+*/
+.ani-list{
+    width: 250px;
+    min-height: 250px;
+    border: 1px solid #ddd;
+    margin: 30px auto;
+    background-color: #ECF0F1;
+}
+.ani-list li,
+.tran li{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: crimson;
+    text-align: center;
+}
+.box{
+    margin: 50px auto;
+    width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: box;
+  animation-duration: 4s;
+}
+@keyframes box {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  /*
+
+        Transition Css
+*/
+
+.with-out-tran,
+.with-tran{
+    width: 250px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.with-out-tran h5,
+.with-tran h5{
+    font-size: 20px;
+    margin: 20px 0;;
+}
+.with-out-tran button{
+    padding: 20px 15px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.with-out-tran button:hover{
+    background: #000;
+    color: #fff;
+}
+.with-tran button{
+    padding: 20px 15px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    transition: .7s;
+}
+.with-tran button:hover{
+    background: #000;
+    color: #fff;
+}
+  /*
+
+        Selectors Css
+*/
+.selctor{
+    width: 250px;
+    height: auto;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 10px;
+}
+.selctor h3{
+    color: #000000;
+}
+/*
+
+      Footer Css
+*/
+footer{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: darkkhaki;
+    margin-bottom: 10px;
+}
